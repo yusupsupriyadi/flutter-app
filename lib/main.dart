@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/tutor_1.dart';
+import 'package:flutter_app/pages/tutor_2.dart';
 
 void main() => runApp(const MyApp());
 
@@ -8,9 +8,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Tutor1(),
+      theme: ThemeData(
+        fontFamily: 'Poppins',
+      ),
+      home: Tutor2(),
     );
   }
 }
