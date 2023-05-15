@@ -27,7 +27,7 @@ class Tutor2 extends StatelessWidget {
                 'Cat',
                 style: TextStyle(fontSize: 20, color: whiteColor),
               ),
-              SizedBox(height: 2),
+              const SizedBox(height: 2),
               Text(
                 'British Shorthair',
                 style: TextStyle(fontSize: 16, color: grey),
@@ -36,7 +36,7 @@ class Tutor2 extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 40),
                 child: Container(
                   width: double.infinity,
-                  padding: EdgeInsets.all(30),
+                  padding: const EdgeInsets.all(30),
                   decoration: BoxDecoration(
                     color: whiteColor,
                     borderRadius: const BorderRadius.vertical(
