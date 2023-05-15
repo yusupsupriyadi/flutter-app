@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class Tutor1 extends StatelessWidget {
+  const Tutor1({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
           child: ListView(
         children: [
           Image.asset('assets/images/cat.png'),
-          const SizedBox(height: 20),
+          const SizedBox(height: 30),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 30),
             child: Row(
@@ -50,7 +50,7 @@ class HomePage extends StatelessWidget {
                 Column(
                   children: const [
                     Icon(Icons.location_on, color: Colors.grey),
-                    SizedBox(height: 8),
+                    SizedBox(height: 10),
                     Text(
                       'Distance',
                       style: TextStyle(fontSize: 18),
@@ -59,24 +59,24 @@ class HomePage extends StatelessWidget {
                 ),
                 Column(
                   children: const [
-                    Icon(Icons.cake, color: Colors.grey),
-                    SizedBox(height: 8),
+                    Icon(Icons.timer, color: Colors.grey),
+                    SizedBox(height: 10),
                     Text(
-                      'Age',
+                      'Duration',
                       style: TextStyle(fontSize: 18),
                     )
                   ],
                 ),
                 Column(
                   children: const [
-                    Icon(Icons.handshake, color: Colors.grey),
-                    SizedBox(height: 8),
+                    Icon(Icons.monetization_on, color: Colors.grey),
+                    SizedBox(height: 10),
                     Text(
-                      'Pet',
+                      'Price',
                       style: TextStyle(fontSize: 18),
                     )
                   ],
-                ),
+                )
               ],
             ),
           ),
@@ -84,14 +84,8 @@ class HomePage extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 30),
             child: Text(
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies diam id tellus consectetur condimentum.\n\nSed mattis consequat nibh, at eleifend nulla accumsan in. Integer ut ligula non ipsum fringilla lacinia vitae id lectus. Aenean et orci nisl. Nulla facilisi. Sed luctus est nec sollicitudin volutpat. Please note that Lorem Ipsum text is commonly used as a placeholder or sample text in the design and typesetting industry. \n\n It doesnt have any actual meaning but is used to demonstrate the visual elements of a document or webpage, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies diam id tellus consectetur condimentum. Sed mattis consequat nibh, at eleifend nulla accumsan in. Integer ut ligula non ipsum fringilla lacinia vitae id lectus. Aenean et orci nisl. Nulla facilisi. Sed luctus est nec sollicitudin volutpat',
-              style: TextStyle(
-                fontSize: 12,
-                height: 1.5,
-              ),
-              textAlign: TextAlign.justify,
-            ),
-          ),
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies diam id tellus consectetur condimentum. Sed mattis consequat nibh, at eleifend nulla accumsan in. Integer ut ligula non ipsum fringilla lacinia vitae id lectus. \n\n Aenean et orci nisl. Nulla facilisi. Sed luctus est nec sollicitudin volutpat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies diam id tellus consectetur condimentum. Sed mattis consequat nibh, at eleifend nulla accumsan in. Integer ut ligula non ipsum fringilla lacinia vitae id lectus. Aenean et orci nisl. Nulla facilisi. Sed luctus est nec sollicitudin volutpat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies diam id tellus consectetur condimentum. Sed mattis consequat nibh, at eleifend nulla accumsan in. Integer ut ligula non ipsum fringilla lacinia vitae id lectus. Aenean et orci nisl. Nulla facilisi. Sed luctus est nec sollicitudin volutpat'),
+          )
         ],
       )),
     );
